@@ -16,6 +16,7 @@ export class TestData {
     {id: 8, title: 'Здоровье'},
     {id: 9, title: 'Гаджеты'},
     {id: 10, title: 'Ремонт'},
+    {id: 11, title: 'Своя категория (Алексей)'}
   ];
 
   static priorities: Priority[] = [
