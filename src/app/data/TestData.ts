@@ -67,5 +67,13 @@ export class TestData {
       category: TestData.catigories[3],
       date: new Date('2019-07-22'),
     },
+    {
+      id: 6,
+      title: 'Задача Алексея 2',
+      priority: TestData.priorities[0],
+      completed: false,
+      category: TestData.catigories[3],
+      date: new Date('2019-07-02'),
+    },
   ];
 }
