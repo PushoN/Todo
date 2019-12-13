@@ -14,13 +14,13 @@
           <th>Дата</th>
           </thead>
           <tbody>
-          <tr *ngFor="let t of tasks">
-            <td>{{t.id}}</td>
+          <tr *ngFor="let t of tasks; let i = index">
+            <td>{{i+1}}</td>
             <td>{{t.title}}</td>
-            <td>{{t.category.title}}</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>{{t.category? t.category.title : ''}}</td>
+            <td>{{t.priority.title}}</td>
+            <td>{{t.completed}}</td>
+            <td>{{t.date? (t.date | date : 'medium'):'Нет Даты'}}</td>
           </tr>
           </tbody>
         </table>

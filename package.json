@@ -1,6 +1,6 @@
 {
   "name": "todo",
-  "version": "0.0.22h",
+  "version": "0.0.23",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
